@@ -1,0 +1,151 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    max-width: 700px;
+    width: 90%;
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    color: #1a237e;
+    margin-bottom: 0.75em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    border-bottom: 2px solid #3949ab;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #283593;
+}
+
+h3 {
+    font-size: 1.3em;
+    color: #3f51b5;
+}
+
+.project-info {
+    background-color: #e8eaf6;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    border-left: 5px solid #3949ab;
+    text-align: left;
+}
+
+.project-description,
+.project-info ul {
+    margin-bottom: 15px;
+    color: #37474f;
+}
+
+.project-info ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.project-info ul li {
+    margin-bottom: 8px;
+}
+
+.time-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.time-display {
+    font-size: 3em;
+    color: #1976d2;
+    background-color: #e3f2fd;
+    padding: 15px 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    border: 1px solid #bbdefb;
+}
+
+.controls button {
+    padding: 12px 25px;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    min-width: 100px;
+}
+
+.controls button:active {
+    transform: translateY(1px);
+}
+
+#startButton {
+    background-color: #4caf50;
+}
+
+#startButton:hover {
+    background-color: #388e3c;
+}
+
+#stopButton {
+    background-color: #f44336;
+}
+
+#stopButton:hover {
+    background-color: #d32f2f;
+}
+
+#resetButton {
+    background-color: #ff9800;
+}
+
+#resetButton:hover {
+    background-color: #f57c00;
+}
+
+#startButton:disabled,
+#stopButton:disabled,
+#resetButton:disabled {
+    background-color: #bdbdbd;
+    cursor: not-allowed;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+    font-size: 0.9em;
+    color: #757575;
+}
