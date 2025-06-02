@@ -27,3 +27,4 @@ It is an ideal project for beginners looking to learn **JavaScript time function
 - JavaScript
 
 
+![Image](https://github.com/user-attachments/assets/3f898b0c-cc7a-4db1-87f6-96baea4b7d62)
